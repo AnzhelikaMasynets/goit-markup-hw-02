@@ -1,0 +1,185 @@
+:root {
+  /*---Colors----*/
+  --brend-cl: #4d5ae5;
+  --ocean-cl: #404bbf;
+  --subtitle-cl: #2e2f42;
+  --text-cl: #434455;
+  --green-cl: #31d0aa;
+  --light-slate-cl: #8e8f99;
+  --cornflower-cl: #e7e9fc;
+  --cloud-cl: #f4f4fd;
+  --white-cl: #ffffff;
+  --dairy-cl: #fcfcfc;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  color: var(--text-cl);
+  background-color: var(--white-cl);
+}
+
+.logo-web {
+  color: var(--brend-cl);
+}
+
+.link {
+  text-decoration: none;
+  font-style: normal;
+}
+
+.list {
+  list-style-type: none;
+}
+
+.section-title {
+  color: var(--subtitle-cl);
+  text-align: center;
+  font-size: 36px;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+}
+
+.subtitle {
+  color: var(--subtitle-cl);
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+}
+
+/*---------HEADER-------------*/
+
+.header-logo {
+  color: var(--subtitle-cl);
+  font-family: Raleway;
+  font-size: 18px;
+  font-weight: 800;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+
+.header-menu-link {
+  color: var(--subtitle-cl);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+
+.header-menu-link:hover,
+.header-menu-link:focus {
+  color: var(--ocean-cl);
+}
+
+.address-link {
+  color: var(--text-cl);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+
+/*---------HERO-------------*/
+
+.hero {
+  background-color: var(--subtitle-cl);
+}
+.hero-title {
+  color: var(--white-cl);
+  text-align: center;
+  font-size: 56px;
+  font-weight: 700;
+  line-height: 1.07;
+  letter-spacing: 0.02em;
+}
+
+.hero-btn {
+  color: var(--white-cl);
+  font-family: inherit;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  background: var(--brend-cl);
+}
+
+/*---------ADVANTAGES-------------*/
+
+.advantages-text {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+
+/*---------GADGETS-------------*/
+
+/*---------TEAM-------------*/
+
+.team {
+  background: var(--cloud-cl);
+}
+
+.team-name {
+  color: var(--subtitle-cl);
+  text-align: center;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+}
+
+.team-position {
+  text-align: center;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+
+/*---------FOOTER-------------*/
+
+.footer {
+  background: var(--subtitle-cl);
+}
+
+.footer-logo {
+  color: var(--cloud-cl);
+  font-family: Raleway;
+  font-size: 18px;
+  font-weight: 800;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+
+.footer-logo-text {
+  color: var(--cloud-cl);
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+
+/* ---------------PORTFOLIO---------------- */
+
+.filtr-btn {
+  color: var(--brend-cl);
+  text-align: center;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  background: var(--cloud-cl);
+}
+
+.all {
+  color: var(--dairy-cl);
+  background: var(--ocean-cl);
+}
+
+.project-link {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
