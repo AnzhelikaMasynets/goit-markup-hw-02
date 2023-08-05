@@ -18,8 +18,18 @@ body {
   background-color: var(--white-cl);
 }
 
-.logo-web {
+.logo {
   color: var(--brend-cl);
+  font-family: Raleway, sans-serif;
+  font-size: 18px;
+  font-weight: 800;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+
+.logo-studio {
+  color: var(--subtitle-cl);
 }
 
 .link {
@@ -50,14 +60,8 @@ body {
 
 /*---------HEADER-------------*/
 
-.header-logo {
-  color: var(--subtitle-cl);
-  font-family: Raleway;
-  font-size: 18px;
-  font-weight: 800;
-  line-height: 1.17;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
+.address {
+  font-style: normal;
 }
 
 .header-menu-link {
@@ -68,9 +72,8 @@ body {
   letter-spacing: 0.02em;
 }
 
-.header-menu-link:hover,
-.header-menu-link:focus {
-  color: var(--ocean-cl);
+.address {
+  font-style: normal;
 }
 
 .address-link {
@@ -81,6 +84,10 @@ body {
   letter-spacing: 0.02em;
 }
 
+.link:hover,
+.link:focus {
+  color: var(--ocean-cl);
+}
 /*---------HERO-------------*/
 
 .hero {
@@ -96,13 +103,19 @@ body {
 }
 
 .hero-btn {
+  cursor: pointer;
   color: var(--white-cl);
   font-family: inherit;
   font-size: 16px;
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.04em;
-  background: var(--brend-cl);
+  background-color: var(--brend-cl);
+}
+
+.hero-btn:hover,
+.hero-btn:focus {
+  background-color: var(--ocean-cl);
 }
 
 /*---------ADVANTAGES-------------*/
@@ -118,7 +131,11 @@ body {
 /*---------TEAM-------------*/
 
 .team {
-  background: var(--cloud-cl);
+  background-color: var(--cloud-cl);
+}
+
+.team-item {
+  background-color: var(--white-cl);
 }
 
 .team-name {
@@ -140,20 +157,14 @@ body {
 /*---------FOOTER-------------*/
 
 .footer {
-  background: var(--subtitle-cl);
+  background-color: var(--subtitle-cl);
 }
 
-.footer-logo {
+.footer-logo-studio {
   color: var(--cloud-cl);
-  font-family: Raleway;
-  font-size: 18px;
-  font-weight: 800;
-  line-height: 1.17;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
 }
 
-.footer-logo-text {
+.footer-text {
   color: var(--cloud-cl);
   font-size: 16px;
   line-height: 1.5;
@@ -163,23 +174,41 @@ body {
 /* ---------------PORTFOLIO---------------- */
 
 .filtr-btn {
+  cursor: pointer;
+  font-family: "Roboto", sans-serif;
   color: var(--brend-cl);
   text-align: center;
   font-size: 16px;
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.04em;
-  background: var(--cloud-cl);
+  background-color: var(--cloud-cl);
 }
 
+.filtr-btn:hover,
+.filtr-btn:focus {
+  color: var(--white-cl);
+  background-color: var(--ocean-cl);
+}
+
+/*
 .all {
   color: var(--dairy-cl);
-  background: var(--ocean-cl);
+  background-color: var(--ocean-cl);
+}*/
+
+.subtitle {
+  color: var(--subtitle-cl);
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
 }
 
-.project-link {
+.project-desk {
   font-size: 16px;
   font-weight: 400;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  color: var(--text-cl);
 }
