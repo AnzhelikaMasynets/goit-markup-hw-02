@@ -175,7 +175,7 @@ body {
 
 .filtr-btn {
   cursor: pointer;
-  font-family: "Roboto", sans-serif;
+  font-family: inherit;
   color: var(--brend-cl);
   text-align: center;
   font-size: 16px;
@@ -191,12 +191,6 @@ body {
   background-color: var(--ocean-cl);
 }
 
-/*
-.all {
-  color: var(--dairy-cl);
-  background-color: var(--ocean-cl);
-}*/
-
 .subtitle {
   color: var(--subtitle-cl);
   font-size: 20px;
@@ -207,7 +201,6 @@ body {
 
 .project-desk {
   font-size: 16px;
-  font-weight: 400;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--text-cl);
