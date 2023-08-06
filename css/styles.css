@@ -88,6 +88,7 @@ body {
 .hero {
   background-color: var(--subtitle-cl);
 }
+
 .hero-title {
   color: var(--white-cl);
   text-align: center;
@@ -104,6 +105,7 @@ body {
   line-height: 1.5;
   letter-spacing: 0.04em;
   background-color: var(--brend-cl);
+  cursor: pointer;
 }
 
 .hero-btn:hover,
@@ -175,6 +177,7 @@ body {
   line-height: 1.5;
   letter-spacing: 0.04em;
   background-color: var(--cloud-cl);
+  cursor: pointer;
 }
 
 .filtr-btn:hover,
